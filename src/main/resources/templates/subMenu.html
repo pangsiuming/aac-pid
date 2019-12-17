@@ -1,0 +1,10 @@
+<th:block th:fragment="menu(menuList, lv)">
+    <th:block th:each="p : ${menuList}">
+        <a th:class="'menuA_' + ${lv}" th:attr="menuid=${p.menuId},menutype=${p.menuType},menupid=${p.parentMenuId}" th:onclick="openMenu(this)"
+           th:text="${p.menuName}"></a>
+        <div th:class="'menuDIV_' + ${lv}" th:id="'light' + ${p.menuId}">
+            <th:block th:unless="${#lists.isEmpty(p.subMenu) or p.menuType=='detail' or p.menuType=='img'}"
+                      th:include="this::menu(${p.subMenu}, ${lv + 1})"/>
+        </div>
+    </th:block>
+</th:block>

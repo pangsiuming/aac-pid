@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aac.pid.repository.ProductDetailDao">
+
+    <select id="listProductDetail" resultType="com.aac.pid.domain.ProductDetail">
+        select * from product_detail where detail_mmid = #{menuId}
+    </select>
+
+    <select id="countProductDetail" resultType="java.lang.Integer">
+        select count(*) from product_detail where detail_mid = #{menuId}
+    </select>
+    <select id="listProductDetailByDid" resultType="com.aac.pid.domain.ProductDetail">
+        select * from product_detail where detail_did = #{dimensonId} and detail_pid=#{parentId}
+    </select>
+    <select id="getPidByPidAndMid" resultType="java.lang.Integer">
+        select distinct detail_did from product_detail where detail_mid=#{menuId} and detail_pid = #{parentId}
+    </select>
+    <select id="listProductDetailBySearch" parameterType="com.aac.pid.domain.Search" resultType="com.aac.pid.domain.ProductDetail">
+        select * from product_detail
+        <where>
+            <if test="menuId!=null">
+                detail_pid = #{menuId}
+            </if>
+            <if test="col1 != null">
+                AND detail_pn = #{col1}
+            </if>
+            <if test="col2 != null">
+                AND detail_di = #{col2}
+            </if>
+            <if test="col3 != null">
+                AND detail_po = #{col3}
+            </if>
+            <if test="col4 != null">
+                AND detail_fo = #{col4}
+            </if>
+            <if test="col5 != null">
+                AND detail_th = #{col5}
+            </if>
+            <if test="col6 != null">
+                AND detail_dc = #{col6}
+            </if>
+            <if test="col7 != null">
+                AND detail_ac = #{col7}
+            </if>
+        </where>
+
+    </select>
+    <select id="listProductDetailByLikeSearch" parameterType="com.aac.pid.domain.Search" resultType="com.aac.pid.domain.ProductDetail">
+        select * from product_detail
+        <where>
+            <if test="menuId!=null">
+                detail_pid = #{menuId}
+            </if>
+            <if test="col1 != null">
+                AND detail_pn like #{col1}
+            </if>
+            <if test="col2 != null">
+                AND detail_di like #{col2}
+            </if>
+            <if test="col3 != null">
+                AND detail_po like #{col3}
+            </if>
+            <if test="col4 != null">
+                AND detail_fo like #{col4}
+            </if>
+            <if test="col5 != null">
+                AND detail_th like #{col5}
+            </if>
+            <if test="col6 != null">
+                AND detail_dc like #{col6}
+            </if>
+            <if test="col7 != null">
+                AND detail_ac like #{col7}
+            </if>
+        </where>
+    </select>
+</mapper>

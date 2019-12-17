@@ -1,0 +1,42 @@
+<link rel="stylesheet" th:href="@{/css/display.css}">
+<script type="text/javascript" th:src="@{/js/display.js}"></script>
+<div id="display_main" th:fragment="display_main">
+    <input type="hidden" id="productCount" th:value="${productCount}"/>
+    <ul class="displayUL">
+        <li th:each="product: ${productList}">
+            <a class="displayA" th:href="@{/img/{src}(src=${product.productIcon})}" target="_blank">
+                <div><img class="displayIMG" th:src="'/img/' + ${product.productIcon}"></div>
+                <span th:text="${product.productName}"></span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div class="page">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li class="page-item"><a class="page-link" onclick="setPage(1)">First</a></li>
+            <li class="page-item">
+                <a class="page-link" onclick="lastPage()" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item">
+                <select id="pageLimit" onchange="setLimit(this)">
+                    <option value="2">2</option>
+                    <option value="4">4</option>
+                    <option value="6" selected>6</option>
+                    <option value="8">10</option>
+                    <option value="8">20</option>
+                    <option value="8">50</option>
+                    <option value="8">100</option>
+                </select>
+            </li>
+            <li class="page-item">
+                <a class="page-link" onclick="nextPage()" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" onclick="setPage(maxPage)">Last</a></li>
+        </ul>
+    </nav>
+</div>

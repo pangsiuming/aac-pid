@@ -1,0 +1,42 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailSf",
+        "title": "Appearance"
+      },
+      {
+        "field": "detailStr",
+        "title": "Dimension(mm)"
+      },
+      {
+        "field": "detailRv",
+        "title": "Rated voltage"
+      },
+      {
+        "field": "detailDc",
+        "title": "D.C(ohm)"
+      },
+      {
+        "field": "detailBl",
+        "title": "BL"
+      },
+      {
+        "field": "detailNf",
+        "title": "Natural frequency"
+      },
+      {
+        "field": "detailSe",
+        "title": "Sensitivity(dB)"
+      },
+      {
+        "field": "detailTh",
+        "title": "THD"
+      }
+    ]
+  ]
+}

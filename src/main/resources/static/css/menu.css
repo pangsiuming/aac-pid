@@ -1,0 +1,79 @@
+.titleDIV {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 50px;
+    background-color: #005197;
+    padding-left: 5%;
+}
+
+.titleDIV > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.menuDIV {
+    width: 80%;
+    background-color: #ebebeb;
+    padding-bottom: 10px;
+}
+
+.menuDIV .nav2_2 {
+    background-color: #ebebeb;
+}
+
+.menuDIV .nav2_4 {
+    background-color: #f6f6f6;
+}
+
+.menuUL {
+    padding: 0px 5%;
+    list-style: none;
+}
+
+.menuUL a {
+    height: 40px;
+    border-bottom: dashed 1px #ccc;
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.menuUL li {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #005197;
+}
+
+.menuA_1 {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #005197;
+}
+
+.menuDIV_1, .menuDIV_2, .menuDIV_3 {
+    display: none;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: -10px;
+    padding: 0px 10px;
+}
+
+.menuDIV_1 {
+    color: #3c3c3c;
+    padding: 0px 10%;
+}
+
+.menuDIV_2 {
+    color: #4c4c4c;
+    padding: 0px 15%;
+}
+
+.menuDIV_3 {
+    padding: 0px 15%;
+}

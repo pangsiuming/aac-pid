@@ -1,0 +1,67 @@
+<link rel="stylesheet" th:href="@{/css/search.css}">
+<div id="searchDIV" th:fragment="search_main">
+    <h2 class="mb-3 py-3 text-center" id="searchName" th:text="${searchParam.menuName}"></h2>
+    <form id="searchForm" action="/search" method="post">
+        <input name = "searchId" class="searchId" th:value="${searchParam.searchId}" th:hidden="hidden"/>
+        <input name = "menuId" class="menuId" th:value="${searchParam.menuId}" th:hidden="hidden"/>
+        <input name ="menuName" class="menuName" th:value="${searchParam.menuName}" th:hidden="hidden"/>
+        <div class="row justify-content-around no-gutters">
+            <div class="col-md-2 mb-1">
+                <label for="model" th:text="${searchParam.col1}"></label>
+                <select id="model" class="custom-select" name="col1">
+                    <option selected></option>
+                    <option value="SPS1527A-01">SPS1527A-01</option>
+                    <option value="SPS1527A-45">SPS1527A-45</option>
+                    <option value="SPS1527A-46">SPS1527A-46</option>
+                </select>
+            </div>
+            <div class="col-md-2 p mb-1">
+                <label for="size" th:text="${searchParam.col2}"></label>
+                <select id="size" class="custom-select" name="col2">
+                    <option selected></option>
+                    <option value="15*27">15*27</option>
+                    <option value="9*6">9*6</option>
+                    <option value="10*20">10*20</option>
+                </select>
+            </div>
+            <div class="col-md-2 mb-1">
+                <label for="thickness" th:text="${searchParam.col3}"></label>
+                <input name="col3" type="text" class="form-control" id="thickness" placeholder="" value="">
+            </div>
+            <div class="col-md-2 mb-1">
+                <label for="power" th:text="${searchParam.col4}"></label>
+                <input name="col4" type="text" class="form-control" id="power" placeholder="" value="">
+            </div>
+        </div>
+        <div class="row justify-content-around no-gutters">
+            <div class="col-md-2 mb-1">
+                <label for="thickness" th:text="${searchParam.col5}"></label>
+                <input name="col5" type="text" class="form-control" id="thickness" placeholder="" value="">
+            </div>
+            <div class="col-md-2 mb-1">
+                <label for="power" th:text="${searchParam.col6}"></label>
+                <input name="col6" type="text" class="form-control" id="power" placeholder="" value="">
+            </div>
+            <div class="col-md-2 mb-1">
+                <label for="sensitiveness" th:text="${searchParam.col7}"></label>
+                <input name="col7" type="text" class="form-control" id="sensitiveness" placeholder="" value="">
+            </div>
+            <input id="searchType" name="searchType" value="pre" hidden="hidden">
+        </div>
+        <hr class="mb-4">
+        <div class="row justify-content-center">
+            <div class="col-4">
+                <button class="btn btn-primary btn-lg btn-block" type="sumbit" onclick="changeType()">模糊搜索</button>
+            </div>
+            <div class="col-4">
+                <button class="btn btn-primary btn-lg btn-block" type="submit" >精确搜索</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script language="JavaScript">
+    function changeType() {
+        $('#searchType').val("amb");
+    }
+
+</script>

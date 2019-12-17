@@ -1,0 +1,13 @@
+<link rel="stylesheet" th:href="@{/css/menu.css}">
+<script type="text/javascript" th:src="@{/js/menu.js}"></script>
+<div class="titleDIV">
+    <a href="/">
+        产品中心
+    </a>
+</div>
+<div class="menuDIV">
+    <ul class="menuUL">
+        <li th:include="subMenu::menu(${menuList}, 1)">
+        </li>
+    </ul>
+</div>

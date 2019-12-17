@@ -1,0 +1,28 @@
+server:
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  profiles:
+    active: dev
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+  resources:
+    chain:
+      strategy:
+        content:
+          enabled: true
+          paths: /**
+
+mybatis:
+  type-aliases-package: com.aac.pid.domain
+  mapper-locations: classpath:mapper/**/*.xml
+  configuration:
+    mapUnderscoreToCamelCase: true
+    jdbc-type-for-null: 'null'

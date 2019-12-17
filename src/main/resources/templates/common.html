@@ -1,0 +1,41 @@
+<link rel="stylesheet" th:href="@{/css/bootstrap-submenu.min.css}">
+<link rel="stylesheet" th:href="@{/css/selector.css}">
+<link rel="stylesheet" th:href="@{/css/common.css}">
+<script type="text/javascript" th:src="@{/js/bootstrap-submenu.min.js}"></script>
+<script type="text/javascript" th:src="@{/js/selector.js}"></script>
+<script type="text/javascript" th:src="@{/js/common.js}"></script>
+<div class="head">
+    <div class="box1_1">
+        <div class="logo"><a href="https://www.aactechnologies.com/"><img src="./img/logo1.png" alt=""></a></div>
+        <ul class="nav">
+            <li>
+                <a href="/index" class="title_1">首页</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="banner">
+    <img src="/img/2_1.jpg" alt="">
+</div>
+<hr class="mb-4">
+<button type="button" class="btn btn-outline-primary btn-md" id="compareBtn">产品<br/>对比
+</button>
+<div id="compare">
+    <div class="compareDIV">
+        <table id="compareTable" class="table">
+            <thead>
+            <tr>
+                <th scope="col" class="sr-only">ID</th>
+                <th scope="col">类型</th>
+                <th scope="col">系列</th>
+                <th scope="col">产品名</th>
+                <th scope="col"></th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div th:replace="selector"></div>
+        <button type="button" class="btn btn-primary btn-sm" id="cp" onclick="compareProduct(this)">比较</button>
+    </div>
+</div>

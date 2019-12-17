@@ -1,0 +1,34 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailType",
+        "title": "Type"
+      },
+      {
+        "field": "detailAp",
+        "title": "Appearance"
+      },
+      {
+        "field": "detailDi",
+        "title": "Dimension(mm)"
+      },
+      {
+        "field": "detailCe",
+        "title": "Charge efficiency"
+      },
+      {
+        "field": "detailIs",
+        "title": "Is"
+      },
+      {
+        "field": "detailRs",
+        "title": "Rs/Rdc"
+      }
+    ]
+  ]
+}

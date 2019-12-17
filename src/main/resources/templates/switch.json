@@ -1,0 +1,43 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailAp",
+        "title": "Appearance"
+      },
+      {
+        "field": "detailDi",
+        "title": "Dimension(mm)"
+      },
+      {
+        "field": "detailTcf",
+        "title": "Target Configuration"
+      },
+      {
+        "field": "detailRfip",
+        "title": "RF Input Power"
+      },
+      {
+        "field": "detailMrfv",
+        "title": "Maximum RF Voltage (Vpk)"
+      },
+      {
+        "field": "detailOnr",
+        "title": "ON Resistance (Ron)"
+      },
+      {
+        "field": "detailOffc",
+        "title": "OFF Capacitance (Coff)"
+      },
+      {
+        "field": "detailEsd",
+        "title": "ESD Rating (HBM) RF Pins"
+      }
+
+    ]
+  ]
+}

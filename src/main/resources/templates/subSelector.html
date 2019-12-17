@@ -1,0 +1,16 @@
+<th:block th:fragment="menu(menuList, lv)">
+    <div class="dropdown-menu">
+        <th:block th:each="p : ${menuList}">
+            <button th:if="${#lists.isEmpty(p.subMenu)}" class="dropdown-item" th:disabled="${lv != 4}"
+                    type="button" th:attr="menuid=${p.menuId},level=${lv}"
+                    onclick="addRow(this)"  th:text="${p.menuName}"></button>
+            <div th:unless="${#lists.isEmpty(p.subMenu)}" class="dropdown dropleft dropdown-submenu">
+                <button class="dropdown-item dropdown-toggle"
+                        type="button" th:attr="menuid=${p.menuId},level=${lv}"
+                        th:text="${p.menuName}"></button>
+                <th:block th:unless="${#lists.isEmpty(p.subMenu)}"
+                          th:include="this::menu(${p.subMenu}, ${lv + 1})"/>
+            </div>
+        </th:block>
+    </div>
+</th:block>

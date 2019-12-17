@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  tomcat.uri-encoding: UTF-8
+
+spring:
+  profiles: prd
+  datasource:
+    url: jdbc:mysql://10.177.97.141:3306/pid
+    username: root
+    password: 123456
+  thymeleaf:
+    cache: true

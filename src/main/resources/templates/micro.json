@@ -1,0 +1,46 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailAp",
+        "title": "Apperance"
+      },
+      {
+        "field": "detailDi",
+        "title": "Dimension(mm)"
+      },
+      {
+        "field": "detailOpt",
+        "title": "Output"
+      },
+      {
+        "field": "detailPort",
+        "title": "Port"
+      },
+      {
+        "field": "detailSe",
+        "title": "Sensitivity"
+      },
+      {
+        "field": "detailSnr",
+        "title": "S/N Ratio"
+      },
+      {
+        "field": "detailTrc",
+        "title": "Typ Rated Current(uA)"
+      },
+      {
+        "field": "detailTh10",
+        "title": "THD=10%"
+      },
+      {
+        "field": "detailAdv",
+        "title": "Advantages"
+      }
+    ]
+  ]
+}

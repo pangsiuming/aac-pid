@@ -1,0 +1,39 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailImg",
+        "title": "图片"
+      },
+      {
+        "field": "detailTlen",
+        "title": "电机长度"
+      },
+      {
+        "field": "detailTdim",
+        "title": "电机直径"
+      },
+      {
+        "field": "detailVol",
+        "title": "额定电压"
+      },
+      {
+        "field": "detailFre",
+        "title": "工作频率"
+      },
+      {
+        "field": "detailPace",
+        "title": "步距角"
+      },
+      {
+        "field": "detailRsis",
+        "title": "单相电阻"
+      }
+
+    ]
+  ]
+}

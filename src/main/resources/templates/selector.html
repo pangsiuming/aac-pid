@@ -1,0 +1,8 @@
+<script type="text/javascript" th:src="@{/js/selector.js}"></script>
+<div id="selectDIV" class="dropdown">
+    <button type="button" class="btn btn-light btn-sm btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown" data-submenu="">新增
+    </button>
+    <div th:replace="subSelector::menu(${menuList}, 1)">
+    </div>
+</div>

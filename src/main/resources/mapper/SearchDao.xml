@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.aac.pid.repository.SearchDao">
+
+    <select id="getParam" resultType="com.aac.pid.domain.Search">
+        select s.*, m.menu_name
+        from search s
+                 left join menu m on s.menu_id = m.menu_id
+        where s.menu_id = #{menuId}
+    </select>
+</mapper>

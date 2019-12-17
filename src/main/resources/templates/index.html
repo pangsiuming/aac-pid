@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html xmlns:th=http://www.thymeleaf.org>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="AAC">
+    <meta name="description" content="AAC">
+    <meta name="author" content="AAC">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+    <link rel="stylesheet" th:href="@{/css/index.css}">
+    <script type="text/javascript" th:src="@{/js/jquery-3.3.1.js}"></script>
+    <script type="text/javascript" th:src="@{/js/bootstrap.bundle.js}"></script>
+    <script type="text/javascript" th:src="@{/js/index.js}"></script>
+    <title>PID</title>
+</head>
+
+<body>
+<div th:include="common"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-3">
+            <div th:replace="menu"></div>
+        </div>
+        <div class="col-xs-12 col-md-9">
+            <div id="search_refresh" th:include="search"></div>
+            <div id="display_refresh" th:include="display"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

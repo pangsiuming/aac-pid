@@ -1,0 +1,75 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "Part No"
+      },
+      {
+        "field": "detailAp",
+        "title": "Apperance"
+      },
+      {
+        "field": "detailDi",
+        "title": "Dimension(mm)"
+      },
+      {
+        "field": "detailXmax",
+        "title": "X-max"
+      },
+      {
+        "field": "detailPo",
+        "title": "Power(W)"
+      },
+      {
+        "field": "detailDc",
+        "title": "D.C(ohm)"
+      },
+      {
+        "field": "detailAc",
+        "title": "A.C(ohm)"
+      },
+      {
+        "field": "detailFo",
+        "title": "F0(Hz)"
+      },
+      {
+        "field": "detailSe",
+        "title": "Sensitivity(dB)"
+      },
+      {
+        "field": "detailTh",
+        "title": "THD"
+      },
+      {
+        "field": "detailFrg",
+        "title": "Frequency Response Graph"
+      },
+      {
+        "field": "detailThg",
+        "title": "THD Graph"
+      },
+      {
+        "field": "detailHog",
+        "title": "HOHD Graph"
+      },
+      {
+        "field": "detailFc",
+        "title": "Front Cover"
+      },
+      {
+        "field": "detailCo",
+        "title": "Contact"
+      },
+      {
+        "field": "detailWa",
+        "title": "Waterproof"
+      },
+      {
+        "field": "detailTwo",
+        "title": "Two in one"
+      }
+
+    ]
+  ]
+}
