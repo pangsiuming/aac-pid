@@ -48,4 +48,90 @@ public class ProductDetailServiceImpl implements ProductDetailService {
     public List<ProductDetail> listProductDetailByLikeSearch(Search search) {
         return productDetailDao.listProductDetailByLikeSearch(search);
     }
+
+    @Override
+    public List listProductByPidAndMid(Integer parentId, Integer menuId) {
+        switch (parentId){
+            case 6:{
+                switch (menuId){
+                    case 37:{
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 7:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 8:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 9:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 10:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 11:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            case 12:{
+                switch (menuId){
+                    case 37:{
+
+                    }
+                    default:{
+
+                    }
+                }
+
+            }
+            default:{
+
+            }
+        }
+        return null;
+    }
 }

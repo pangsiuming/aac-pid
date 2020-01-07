@@ -32,7 +32,7 @@ public class HomePageController {
 		model.addAttribute("menuList", menu);
 		model.addAttribute("parentId", parentId);
 		model.addAttribute("menuId", menuId);
-		return "home";
+		return "product";
 	}
 
 	@RequestMapping(value = "/compare")

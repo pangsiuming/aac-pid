@@ -20,4 +20,6 @@ public interface ProductDetailService {
     List<ProductDetail> listProductDetailBySearch(Search search);
 
     List<ProductDetail> listProductDetailByLikeSearch(Search search);
+
+    List listProductByPidAndMid(Integer parentId, Integer menuId);
 }

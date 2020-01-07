@@ -40,6 +40,14 @@ public class ProductDetailController {
         json.put("total",50);
         return json;
     }
+    @GetMapping("listpro")
+    public JSONObject getProduct(@RequestParam("parentId") Integer parentId ,@RequestParam("menuId") Integer menuId){
+        List list = detailService.listProductByPidAndMid(parentId,menuId);
+        JSONObject json = new JSONObject();
+        json.put("rows",list);
+        json.put("total",50);
+        return json;
+    }
 
 
 

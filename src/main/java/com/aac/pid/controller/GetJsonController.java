@@ -15,7 +15,11 @@ import java.util.List;
 @Controller
 public class GetJsonController {
 
+    @RequestMapping(value = "/silmmicro")
+    public String silmmicro() {
 
+        return "silmmicro.json";
+    }
     @RequestMapping(value = "/speaker")
     public String speaker() {
 

@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸"
+      },
+      {
+        "field": "detailSe",
+        "title": "灵敏度（dβ）"
+      },
+      {
+        "field": "detailTh",
+        "title": "信噪比（dβ）"
+      },
+      {
+        "field": "detailNo",
+        "title": "AOP(dBSPL@THD=10%)"
+      },
+      {
+        "field": "detailLt",
+        "title": "进声方式"
+      }
+
+    ]
+  ]
+}
