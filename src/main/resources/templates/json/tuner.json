@@ -1,0 +1,34 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailAp",
+        "title": "大小"
+      },
+      {
+        "field": "detailHog",
+        "title": "电容个数"
+      },
+      {
+        "field": "detailFc",
+        "title": "调谐范围（单个电容)"
+      },
+      {
+        "field": "detailCo",
+        "title": "Q 值@ Cmax, 800 MHz"
+      },
+      {
+        "field": "detailWa",
+        "title": "调谐分辨率"
+      },
+      {
+        "field": "detailTwo",
+        "title": "工作频率(Hz)"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailNo",
+        "title": "F0（Hz）"
+      },
+      {
+        "field": "detailPo",
+        "title": "灵敏度(dB)"
+      },
+      {
+        "field": "detailXmax",
+        "title": "THD"
+      },
+      {
+        "field": "detailPort",
+        "title": "额定功率（W）"
+      },
+      {
+        "field": "detailSnr",
+        "title": "交流电阻（Ω）"
+      }
+
+    ]
+  ]
+}

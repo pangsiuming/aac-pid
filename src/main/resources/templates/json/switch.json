@@ -1,0 +1,34 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品编码"
+      },
+      {
+        "field": "detailAp",
+        "title": "大小"
+      },
+      {
+        "field": "detailSt",
+        "title": "开关类型"
+      },
+      {
+        "field": "detailLt",
+        "title": "射频输入功率（dBm）"
+      },
+      {
+        "field": "detailAl",
+        "title": "最大射频电压(V)"
+      },
+      {
+        "field": "detailSto",
+        "title": "导通电阻(Ω)"
+      },
+      {
+        "field": "detailSpec",
+        "title": "关断电容(fF)"
+      }
+    ]
+  ]
+}

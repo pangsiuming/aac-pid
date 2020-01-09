@@ -1,12 +1,12 @@
 server:
-  port: 8084
+  port: 8083
   tomcat.uri-encoding: UTF-8
 
 spring:
   profiles: dev
   datasource:
 #    url: jdbc:mysql://10.177.97.141:3306/pid
-    url: jdbc:mysql://localhost:3306/pid?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://localhost:3306/pid-new?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2B8
     username: root
 #    password: 123456
     password: root

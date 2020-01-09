@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailAp",
+        "title": "频段（Hz）"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailAcc",
+        "title": "输入损耗（dβ）"
+      },
+      {
+        "field": "detailRt",
+        "title": "回波损耗（dβ）"
+      },
+      {
+        "field": "detailBt",
+        "title": "带外抑制"
+      }
+
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailNo",
+        "title": "功率（W）"
+      },
+      {
+        "field": "detailNf",
+        "title": "额定电压"
+      },
+      {
+        "field": "detailImg",
+        "title": "直流电阻（Ω）"
+      },
+      {
+        "field": "detailTlen",
+        "title": "磁通量（N/A）"
+      }
+
+    ]
+  ]
+}

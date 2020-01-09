@@ -1,0 +1,35 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "传感器尺寸"
+      },
+      {
+        "field": "detailMrfv",
+        "title": "镜片数"
+      },
+      {
+        "field": "detailOnr",
+        "title": "像素（M）"
+      },
+      {
+        "field": "detailOffc",
+        "title": "光圈"
+      },
+      {
+        "field": "detailEsd",
+        "title": "TTL（mm）"
+      },
+      {
+        "field": "detailCe",
+        "title": "视场角（D）"
+      }
+
+    ]
+  ]
+}

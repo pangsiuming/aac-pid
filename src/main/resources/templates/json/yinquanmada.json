@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸(L*W*Hmm) "
+      },
+      {
+        "field": "detailIs",
+        "title": "镜片重量"
+      },
+      {
+        "field": "detailRs",
+        "title": "额定行程"
+      },
+      {
+        "field": "detailStuff",
+        "title": "最大允许电流"
+      },
+      {
+        "field": "detailWire",
+        "title": "电阻"
+      }
+
+    ]
+  ]
+}

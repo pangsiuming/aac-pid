@@ -24,6 +24,22 @@
       {
         "field": "detailFo",
         "title": "进声方式"
+      },
+      {
+        "field": "detailSe",
+        "title": "相对压力误差"
+      },
+      {
+        "field": "detailTh",
+        "title": "绝对压力误差"
+      },
+      {
+        "field": "detailFrg",
+        "title": "噪声"
+      },
+      {
+        "field": "detailThg",
+        "title": "电流"
       }
 
     ]

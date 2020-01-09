@@ -1,0 +1,43 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "外形(长*宽*高) "
+      },
+      {
+        "field": "detailThree",
+        "title": "运动部分重量"
+      },
+      {
+        "field": "detailMaster",
+        "title": "额定行程"
+      },
+      {
+        "field": "detailFov",
+        "title": "OIS: ±160 mA"
+      },
+      {
+        "field": "detailCra",
+        "title": "AF机械行程"
+      },
+      {
+        "field": "detailTvd",
+        "title": "OIS机械行程"
+      },
+      {
+        "field": "detailMic",
+        "title": "最大允许电流"
+      },
+      {
+        "field": "detailBst",
+        "title": "TTL"
+      }
+
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailAp",
+        "title": "类型"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailMaxv",
+        "title": "充电效率"
+      },
+      {
+        "field": "detailMaxp",
+        "title": "电流（A）"
+      },
+      {
+        "field": "detailMaxc",
+        "title": "电阻"
+      }
+
+    ]
+  ]
+}

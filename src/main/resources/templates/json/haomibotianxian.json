@@ -1,0 +1,31 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailAp",
+        "title": "频段（Hz）"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailRt50",
+        "title": "端口数"
+      },
+      {
+        "field": "detailBt50",
+        "title": "增益"
+      },
+      {
+        "field": "detailAm",
+        "title": "材质"
+      }
+
+    ]
+  ]
+}

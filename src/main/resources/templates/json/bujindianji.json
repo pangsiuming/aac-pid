@@ -1,0 +1,39 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailTdim",
+        "title": "电机外径（mm）"
+      },
+      {
+        "field": "detailVol",
+        "title": "本体长度（cm）"
+      },
+      {
+        "field": "detailFre",
+        "title": "输出轴尺寸(mm)"
+      },
+      {
+        "field": "detailPace",
+        "title": "步距角（°/步）"
+      },
+      {
+        "field": "detailRsis",
+        "title": "扭矩mN*m （2400PPS，5V/300mA)"
+      },
+      {
+        "field": "detailTcf",
+        "title": "自启动频率"
+      },
+      {
+        "field": "detailRfip",
+        "title": "线圈A(Ω)"
+      }
+
+    ]
+  ]
+}

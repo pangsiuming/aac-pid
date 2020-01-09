@@ -1,0 +1,43 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸"
+      },
+      {
+        "field": "detailNo",
+        "title": "F0大小（Hz）"
+      },
+      {
+        "field": "detailEn",
+        "title": "F0适配腔体（cc）"
+      },
+      {
+        "field": "detailTel",
+        "title": "灵敏度（dβ）@500Hz"
+      },
+      {
+        "field": "detailOpt",
+        "title": "灵敏度（dβ）@2KHz"
+      },
+      {
+        "field": "detailXmax",
+        "title": "THD"
+      },
+      {
+        "field": "detailPort",
+        "title": "额定功率（W）"
+      },
+      {
+        "field": "detailSnr",
+        "title": "交流电阻（Ω）"
+      }
+
+    ]
+  ]
+}

@@ -30,23 +30,133 @@ function compareProduct(obj) {
         }
         var id1 = id[0];
         switch (id1) {
-            case "79": url = "speaker";break;
-            case "80": url = "speaker";break;
-            case "9": url = "micro";break;
-            case "10": url = "lens";break;
-            case "11" : url = "lens";break;
-            case "13" : url = "sensor";break;
-            case "14" : url = "move";break;
-            case "15" : url = "motivate"; break;
-            case "17" : url = "wire";break;
-            case "19" : url = "charge";break;
-            case "21" : url = "switch";break;
-            case "25" : url = "speaker";break;
-            case "26" : url = "speaker";break;
-            case "45" : url = "speaker";break;
-            case "46" : url = "speaker";break;
-            case "58" : url = "silmmicro";break;
-            case "59" : url = "silmmicro";break;
+
+            case "200": url = "silmmicro";break;
+            case "201": url = "silmmicro";break;
+            case "202": url = "silmmicro";break;
+            case "203": url = "silmmicro";break;
+            case "204" : url = "silmmicro";break;
+            case "205" : url = "silmmicro";break;
+            case "206" : url = "silmmicro";break;
+            case "207" : url = "silmmicro"; break;
+            case "208" : url = "silmmicro";break;
+            case "209" : url = "silmmicro";break;
+            case "210" : url = "silmmicro";break;
+            case "211" : url = "silmmicro";break;
+            case "212" : url = "silmmicro";break;
+            case "213" : url = "digitalmicro";break;
+            case "214" : url = "digitalmicro";break;
+            case "215" : url = "digitalmicro";break;
+            case "216" : url = "digitalmicro";break;
+            case "217": url = "digitalmicro";break;
+            case "218": url = "piemicro";break;
+            case "219": url = "premicro";break;
+            case "220": url = "tuner";break;
+            case "221" : url = "tuner";break;
+            case "222" : url = "switch";break;
+            case "223" : url = "switch";break;
+            case "224" : url = "minispeaker"; break;
+            case "225" : url = "minispeaker";break;
+            case "226" : url = "minispeaker";break;
+            case "227" : url = "minispeaker";break;
+            case "228" : url = "minispeaker";break;
+            case "229" : url = "minispeaker";break;
+            case "230" : url = "minispeaker";break;
+            case "231" : url = "minispeaker";break;
+            case "232" : url = "minispeaker";break;
+            case "233" : url = "minispeaker";break;
+            case "234": url = "minispeaker";break;
+            case "235": url = "minispeaker";break;
+            case "236": url = "minispeaker";break;
+            case "237": url = "minispeaker";break;
+            case "238" : url = "minispeaker";break;
+            case "239" : url = "minispeaker";break;
+            case "240" : url = "minispeaker";break;
+            case "241" : url = "minispeaker"; break;
+            case "242" : url = "minispeaker";break;
+            case "243" : url = "minispeaker";break;
+            case "244" : url = "minispeaker";break;
+            case "245" : url = "minispeaker";break;
+            case "246" : url = "minispeaker";break;
+            case "247" : url = "receiver";break;
+            case "248" : url = "receiver";break;
+            case "249" : url = "receiver";break;
+            case "250" : url = "receiver";break;
+            case "251": url = "receiver";break;
+            case "252": url = "receiver";break;
+            case "253": url = "receiver";break;
+            case "254": url = "receiver";break;
+            case "255" : url = "recevierspeak";break;
+            case "256" : url = "recevierspeak";break;
+            case "257" : url = "recevierspeak";break;
+            case "258" : url = "recevierspeak"; break;
+            case "259" : url = "recevierspeak";break;
+            case "260" : url = "recevierspeak";break;
+            case "261" : url = "recevierspeak";break;
+            case "262" : url = "mediumspeak";break;
+            case "263" : url = "mediumspeak";break;
+            case "264" : url = "mediumspeak";break;
+            case "265" : url = "mediumspeak";break;
+            case "266" : url = "mediumspeak";break;
+            case "267" : url = "mediumspeak";break;
+            case "268": url = "mediumspeak";break;
+            case "269": url = "earphone";break;
+            case "270": url = "earphone";break;
+            case "271": url = "chuganqi";break;
+            case "272" : url = "chuganqi";break;
+            case "273" : url = "chuganqi";break;
+            case "274" : url = "chuganqi";break;
+            case "275" : url = "chuganqi"; break;
+            case "276" : url = "jiliqi";break;
+            case "277" : url = "jiliqi";break;
+            case "278" : url = "jiliqi";break;
+            case "279" : url = "jiliqi";break;
+            case "280" : url = "bujindianji";break;
+            case "281" : url = "bujindianji";break;
+            case "282" : url = "bujindianji";break;
+            case "283" : url = "bujindianji";break;
+            case "284" : url = "bujindianji";break;
+            case "285": url = "sujiaolens";break;
+            case "286": url = "sujiaolens";break;
+            case "287": url = "sujiaolens";break;
+            case "288": url = "sujiaolens";break;
+            case "289" : url = "sujiaolens";break;
+            case "290" : url = "sujiaolens";break;
+            case "291" : url = "sujiaolens";break;
+            case "292" : url = "sujiaolens"; break;
+            case "293" : url = "sujiaolens";break;
+            case "294" : url = "sujiaolens";break;
+            case "295" : url = "sujiaolens";break;
+            case "296" : url = "sujiaolens";break;
+            case "297" : url = "sujiaolens";break;
+            case "298" : url = "sujiaolens";break;
+            case "299" : url = "sujiaolens";break;
+            case "300" : url = "sujiaolens";break;
+            case "301" : url = "sujiaolens";break;
+            case "302": url = "sujiaolens";break;
+            case "303": url = "sujiaolens";break;
+            case "304": url = "sujiaolens";break;
+            case "305": url = "hunhelens";break;
+            case "306" : url = "hunhelens";break;
+            case "307" : url = "hunhelens";break;
+            case "308" : url = "bolilens";break;
+            case "309" : url = "bolilens"; break;
+            case "310" : url = "yinquanmada";break;
+            case "311" : url = "yinquanmada";break;
+            case "312" : url = "qianwangshi";break;
+            case "313" : url = "qianwangshi";break;
+            case "314" : url = "qianwangshi";break;
+            case "315" : url = "qianwangshi";break;
+            case "316" : url = "wuxiancharge";break;
+            case "317" : url = "wuxiancharge";break;
+            case "318" : url = "lvboqi";break;
+            case "319": url = "lvboqi";break;
+            case "320": url = "jizhantianxian";break;
+            case "321": url = "jizhantianxian";break;
+            case "322": url = "jizhantianxian";break;
+            case "323" : url = "jizhantianxian";break;
+            case "324" : url = "haomibotianxian";break;
+            case "325" : url = "haomibotianxian";break;
             default : break;
 
         }
@@ -82,35 +192,7 @@ function compareProduct(obj) {
                 fitColumns: false,
                 singleSelect: true,
                 nowrap: true,
-                columns: [
-                    [
-                        {
-                            "field": "detailPn",
-                            "title": "产品型号"
-                        },
-                        {
-                            "field": "detailDi",
-                            "title": "尺寸"
-                        },
-                        {
-                            "field": "detailSe",
-                            "title": "灵敏度（dβ）"
-                        },
-                        {
-                            "field": "detailTh",
-                            "title": "信噪比（dβ）"
-                        },
-                        {
-                            "field": "detailNo",
-                            "title": "AOP(dBSPL@THD=10%)"
-                        },
-                        {
-                            "field": "detailLt",
-                            "title": "进声方式"
-                        }
-
-                    ]
-                ]
+                columns: js
 
             });
         $("#compareBtn").popover('hide');
@@ -122,23 +204,133 @@ function compareProduct(obj) {
         }
         var id1 = id[0];
         switch (id1) {
-            case "79": url = "speaker";break;
-            case "80": url = "speaker";break;
-            case "9": url = "micro";break;
-            case "10": url = "lens";break;
-            case "11" : url = "lens";break;
-            case "13" : url = "sensor";break;
-            case "14" : url = "move";break;
-            case "15" : url = "motivate"; break;
-            case "17" : url = "wire";break;
-            case "19" : url = "charge";break;
-            case "21" : url = "switch";break;
-            case "25" : url = "speaker";break;
-            case "26" : url = "speaker";break;
-            case "45" : url = "speaker";break;
-            case "46" : url = "speaker";break;
-            case "58" : url = "silmmicro";break;
-            case "59" : url = "silmmicro";break;
+
+            case "200": url = "silmmicro";break;
+            case "201": url = "silmmicro";break;
+            case "202": url = "silmmicro";break;
+            case "203": url = "silmmicro";break;
+            case "204" : url = "silmmicro";break;
+            case "205" : url = "silmmicro";break;
+            case "206" : url = "silmmicro";break;
+            case "207" : url = "silmmicro"; break;
+            case "208" : url = "silmmicro";break;
+            case "209" : url = "silmmicro";break;
+            case "210" : url = "silmmicro";break;
+            case "211" : url = "silmmicro";break;
+            case "212" : url = "silmmicro";break;
+            case "213" : url = "digitalmicro";break;
+            case "214" : url = "digitalmicro";break;
+            case "215" : url = "digitalmicro";break;
+            case "216" : url = "digitalmicro";break;
+            case "217": url = "digitalmicro";break;
+            case "218": url = "piemicro";break;
+            case "219": url = "premicro";break;
+            case "220": url = "tuner";break;
+            case "221" : url = "tuner";break;
+            case "222" : url = "switch";break;
+            case "223" : url = "switch";break;
+            case "224" : url = "minispeaker"; break;
+            case "225" : url = "minispeaker";break;
+            case "226" : url = "minispeaker";break;
+            case "227" : url = "minispeaker";break;
+            case "228" : url = "minispeaker";break;
+            case "229" : url = "minispeaker";break;
+            case "230" : url = "minispeaker";break;
+            case "231" : url = "minispeaker";break;
+            case "232" : url = "minispeaker";break;
+            case "233" : url = "minispeaker";break;
+            case "234": url = "minispeaker";break;
+            case "235": url = "minispeaker";break;
+            case "236": url = "minispeaker";break;
+            case "237": url = "minispeaker";break;
+            case "238" : url = "minispeaker";break;
+            case "239" : url = "minispeaker";break;
+            case "240" : url = "minispeaker";break;
+            case "241" : url = "minispeaker"; break;
+            case "242" : url = "minispeaker";break;
+            case "243" : url = "minispeaker";break;
+            case "244" : url = "minispeaker";break;
+            case "245" : url = "minispeaker";break;
+            case "246" : url = "minispeaker";break;
+            case "247" : url = "receiver";break;
+            case "248" : url = "receiver";break;
+            case "249" : url = "receiver";break;
+            case "250" : url = "receiver";break;
+            case "251": url = "receiver";break;
+            case "252": url = "receiver";break;
+            case "253": url = "receiver";break;
+            case "254": url = "receiver";break;
+            case "255" : url = "recevierspeak";break;
+            case "256" : url = "recevierspeak";break;
+            case "257" : url = "recevierspeak";break;
+            case "258" : url = "recevierspeak"; break;
+            case "259" : url = "recevierspeak";break;
+            case "260" : url = "recevierspeak";break;
+            case "261" : url = "recevierspeak";break;
+            case "262" : url = "mediumspeak";break;
+            case "263" : url = "mediumspeak";break;
+            case "264" : url = "mediumspeak";break;
+            case "265" : url = "mediumspeak";break;
+            case "266" : url = "mediumspeak";break;
+            case "267" : url = "mediumspeak";break;
+            case "268": url = "mediumspeak";break;
+            case "269": url = "earphone";break;
+            case "270": url = "earphone";break;
+            case "271": url = "chuganqi";break;
+            case "272" : url = "chuganqi";break;
+            case "273" : url = "chuganqi";break;
+            case "274" : url = "chuganqi";break;
+            case "275" : url = "chuganqi"; break;
+            case "276" : url = "jiliqi";break;
+            case "277" : url = "jiliqi";break;
+            case "278" : url = "jiliqi";break;
+            case "279" : url = "jiliqi";break;
+            case "280" : url = "bujindianji";break;
+            case "281" : url = "bujindianji";break;
+            case "282" : url = "bujindianji";break;
+            case "283" : url = "bujindianji";break;
+            case "284" : url = "bujindianji";break;
+            case "285": url = "sujiaolens";break;
+            case "286": url = "sujiaolens";break;
+            case "287": url = "sujiaolens";break;
+            case "288": url = "sujiaolens";break;
+            case "289" : url = "sujiaolens";break;
+            case "290" : url = "sujiaolens";break;
+            case "291" : url = "sujiaolens";break;
+            case "292" : url = "sujiaolens"; break;
+            case "293" : url = "sujiaolens";break;
+            case "294" : url = "sujiaolens";break;
+            case "295" : url = "sujiaolens";break;
+            case "296" : url = "sujiaolens";break;
+            case "297" : url = "sujiaolens";break;
+            case "298" : url = "sujiaolens";break;
+            case "299" : url = "sujiaolens";break;
+            case "300" : url = "sujiaolens";break;
+            case "301" : url = "sujiaolens";break;
+            case "302": url = "sujiaolens";break;
+            case "303": url = "sujiaolens";break;
+            case "304": url = "sujiaolens";break;
+            case "305": url = "hunhelens";break;
+            case "306" : url = "hunhelens";break;
+            case "307" : url = "hunhelens";break;
+            case "308" : url = "bolilens";break;
+            case "309" : url = "bolilens"; break;
+            case "310" : url = "yinquanmada";break;
+            case "311" : url = "yinquanmada";break;
+            case "312" : url = "qianwangshi";break;
+            case "313" : url = "qianwangshi";break;
+            case "314" : url = "qianwangshi";break;
+            case "315" : url = "qianwangshi";break;
+            case "316" : url = "wuxiancharge";break;
+            case "317" : url = "wuxiancharge";break;
+            case "318" : url = "lvboqi";break;
+            case "319": url = "lvboqi";break;
+            case "320": url = "jizhantianxian";break;
+            case "321": url = "jizhantianxian";break;
+            case "322": url = "jizhantianxian";break;
+            case "323" : url = "jizhantianxian";break;
+            case "324" : url = "haomibotianxian";break;
+            case "325" : url = "haomibotianxian";break;
             default : break;
 
         }
@@ -174,35 +366,7 @@ function compareProduct(obj) {
                 fitColumns: false,
                 singleSelect: true,
                 nowrap: true,
-                columns: [
-                    [
-                        {
-                            "field": "detailPn",
-                            "title": "产品型号"
-                        },
-                        {
-                            "field": "detailDi",
-                            "title": "尺寸"
-                        },
-                        {
-                            "field": "detailSe",
-                            "title": "灵敏度（dβ）"
-                        },
-                        {
-                            "field": "detailTh",
-                            "title": "信噪比（dβ）"
-                        },
-                        {
-                            "field": "detailNo",
-                            "title": "AOP(dBSPL@THD=10%)"
-                        },
-                        {
-                            "field": "detailLt",
-                            "title": "进声方式"
-                        }
-
-                    ]
-                ]
+                columns: js
 
             });
         $("#compareBtn").popover('hide');

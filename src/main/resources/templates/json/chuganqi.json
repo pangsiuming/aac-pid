@@ -1,0 +1,39 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailNo",
+        "title": "F0"
+      },
+      {
+        "field": "detailRes",
+        "title": "加速度（100g）"
+      },
+      {
+        "field": "detailFno",
+        "title": "RT(0-90%)"
+      },
+      {
+        "field": "detailTtl",
+        "title": "BT(100-10%)"
+      },
+      {
+        "field": "detailRv",
+        "title": "RT(0-50%)"
+      },
+      {
+        "field": "detailBl",
+        "title": "BT(100-50%)"
+      }
+
+    ]
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "columns": [
+    [
+      {
+        "field": "detailPn",
+        "title": "产品型号"
+      },
+      {
+        "field": "detailDi",
+        "title": "尺寸（mm）"
+      },
+      {
+        "field": "detailNo",
+        "title": "F0（Hz）"
+      },
+      {
+        "field": "detailPo",
+        "title": "灵敏度(dB)SPK (@2KHz)"
+      },
+	  {
+        "field": "detailTrc",
+        "title": "灵敏度(dB)RCV (@1KHz）"
+      },
+	  {
+        "field": "detailXmax",
+        "title": "THD SPK"
+      },
+	  {
+        "field": "detailTh10",
+        "title": "THD RCV"
+      },
+      {
+        "field": "detailPort",
+        "title": "功率（W） SPK"
+      },
+      {
+        "field": "detailAdv",
+        "title": "功率（W） REV"
+      },
+      {
+        "field": "detailSnr",
+        "title": "交流电阻（Ω）"
+      }
+
+    ]
+  ]
+}
