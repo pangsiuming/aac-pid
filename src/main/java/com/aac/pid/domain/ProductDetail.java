@@ -15,6 +15,7 @@ public class ProductDetail {
     private Integer detailDid;
     private Integer detailMid;
     private Integer detailMmid;
+    private Integer detailNid;
     private String  detailPn;
     private String  detailAp;
     private String  detailDi;

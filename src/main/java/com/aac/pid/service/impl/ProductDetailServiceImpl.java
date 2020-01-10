@@ -32,6 +32,9 @@ public class ProductDetailServiceImpl implements ProductDetailService {
 
     @Override
     public List<ProductDetail> listProductDetailByDid(Integer parentId,Integer menuId) {
+        if(parentId<=5){
+            return productDetailDao.listProductDetailByMid(menuId);
+        }
         Integer did = productDetailDao.getPidByPidAndMid(parentId,menuId);
         if (did != null){
             return productDetailDao.listProductDetailByDid(parentId,did);

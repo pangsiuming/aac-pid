@@ -174,7 +174,6 @@ function compareProduct(obj) {
             $('#tt').bootstrapTable({
                 url: '/detail/compare?id1=' + id[0] + '&id2=' + id[1],         //请求后台的URL（*）
                 method: 'get',                      //请求方式（*）
-                height:510,
                 title: '产品参数',
                 pagination: true, //获得分页功能
                 pageSize: 10, //默认分页数量

@@ -37,7 +37,7 @@ public class ProductDetailController {
         List<ProductDetail> list = detailService.listProductDetailByDid(parentId,menuId);
         JSONObject json = new JSONObject();
         json.put("rows",list);
-        json.put("total",50);
+        json.put("total",list.size());
         return json;
     }
     @GetMapping("listpro")
@@ -45,7 +45,7 @@ public class ProductDetailController {
         List list = detailService.listProductByPidAndMid(parentId,menuId);
         JSONObject json = new JSONObject();
         json.put("rows",list);
-        json.put("total",50);
+        json.put("total",list.size());
         return json;
     }
 
@@ -58,7 +58,7 @@ public class ProductDetailController {
         list1.addAll(list2);
         JSONObject json = new JSONObject();
         json.put("rows",list1);
-        json.put("total",50);
+        json.put("total",list1.size());
         return json;
     }
 }

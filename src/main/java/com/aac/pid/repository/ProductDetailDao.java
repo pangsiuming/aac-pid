@@ -22,4 +22,6 @@ public interface ProductDetailDao {
     List<ProductDetail> listProductDetailBySearch(Search search);
 
     List<ProductDetail> listProductDetailByLikeSearch(Search search);
+
+    List<ProductDetail> listProductDetailByMid(Integer menuId);
 }

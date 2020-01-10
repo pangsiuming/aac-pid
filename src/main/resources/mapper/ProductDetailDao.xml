@@ -74,4 +74,8 @@
             </if>
         </where>
     </select>
+    <select id="listProductDetailByMid" resultType="com.aac.pid.domain.ProductDetail">
+        select * from product_detail
+        where detail_mid = #{menuId}
+    </select>
 </mapper>

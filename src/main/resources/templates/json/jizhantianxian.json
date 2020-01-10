@@ -2,8 +2,8 @@
   "columns": [
     [
       {
-        "field": "detailPn",
-        "title": "产品型号"
+        "field": "detailNid",
+        "title": "序号"
       },
       {
         "field": "detailAp",
